@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Prashant </title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <!--<link rel="stylesheet" type="text/css" href="bootstrap.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    
+
+    <link rel="stylesheet" type="text/css" href="font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="theme.css">
+		<style type="text/css">
+				.sticky {
+	  				position: fixed;
+	  				top: 0;
+	  				width: 100%
+				}
+				.content {
+	  				padding: 16px;
+				}
+				.sticky + .content {
+	  				padding-top: 60px;
+				}
+		      .centered {
+		        position: fixed; /* or absolute */
+		        left: 20%;
+		        right: 20%
+		      }
+		      body {
+		        margin:0;
+		        padding:0;
+		      }
+		      .content-heading{
+		        font-size: 25px;
+		      }
+		      .thick-blue-border {
+		        border-color: #008cba;
+		        border-width: 3px;
+		        border-style: solid;
+		        border-radius: 50%;
+		      }
+		      p{
+		        font-size: 18px;
+		      }
+		      .background1{
+		        background-image: url(TT.jpg),url(SC.jpg);
+		        background-position: top left, center;
+		        background-size: 200px, 100%;
+
+		      }
+
+		      /* Carousel Styling */
+			.slide1{
+			  background-image: url('expertiza_ncstate.png');   
+			  height: 500px;
+			  background-repeat: no-repeat;
+			  background-position: center;
+			  background-size: cover;
+			}
+			.slide2{
+			  background-image: url('http://www.educationnews.org/wp-content/uploads/2014/06/bigstock_Online_Education_11092172.jpg');
+			  height: 500px;
+			  background-repeat: no-repeat;
+			  background-position: center;
+			  background-size: cover;
+			}
+			.slide3{
+			  background-image: url('https://www.metmuseum.org/-/media/Images/Art/Libraries%20and%20Research%20Centers/Watson%20Library/Watson%20Library_marquee.jpg');
+			  height: 500px;
+			  background-repeat: no-repeat;
+			  background-position: center;
+			  background-size: cover;
+			}
+			.slide4{
+			  background-image: url('https://i.pinimg.com/736x/a0/97/c9/a097c9ee10ba115d8f6bc6b91d3de17c--interface-design-user-interface.jpg');
+			  height: 500px;
+			  background-repeat: no-repeat;
+			  background-position: center;
+			  background-size: cover;
+			}
+			
+			.slide5{
+			  background-image: url('https://image.slidesharecdn.com/referralsystem-170121123500/95/referral-system-9-638.jpg?cb=1493427798');
+			  height: 500px;
+			  background-repeat: no-repeat;
+			  background-position: center;
+			  background-size: cover;
+			}
+			.slide6{
+			  background-image: url('https://i0.wp.com/hollywoodburbankairport.com/wp-content/uploads/HBA-Hero-PLAIN2-2-test2.jpg?fit=1500%2C500');
+			  height: 500px;
+			  background-repeat: no-repeat;
+			  background-position: center;
+			  background-size: cover;
+			}
+			.slide7{
+			  background-image: url('http://static.asiawebdirect.com/m/bangkok/portals/vietnam/homepage/ho-chi-minh-city/top10/top10-ho-chi-minh-nightlife/pagePropertiesImage/best-nightlife-ho-chi-minh.jpg.jpg');
+			  height: 500px;
+			  background-repeat: no-repeat;
+			  background-position: center;
+			  background-size: cover;
+			}
+			
+			.slide8{
+			  background-image: url('https://www2.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/images/Chapter3/3_12_CommunicationsModels.jpg');
+			  height: 500px;
+			  background-repeat: no-repeat;
+			  background-position: center;
+			  background-size: cover;
+			}
+			.slide9{
+			  background-image: url('http://lh6.ggpht.com/_NNjxeW9ewEc/TLSH2F9RznI/AAAAAAAAKhg/UJ1K7GlD8Cc/tmp9D84_thumb_thumb1.jpg?imgmax=800');
+			  height: 500px;
+			  background-repeat: no-repeat;
+			  background-position: center;
+			  background-size: cover;
+			}
+			.slide10{
+			  background-image: url('http://www.veenaija.com/vnfiles/2017/09/volume-not-contain-recognized-file-system.jpg');
+			  height: 500px;
+			  background-repeat: no-repeat;
+			  background-position: center;
+			  background-size: cover;
+			}
+			
+			.slide11{
+			  background-image: url('http://docs.opendaylight.org/en/stable-nitrogen/_images/Service_Chaining_With_One_Service.png');
+			  height: 500px;
+			  background-repeat: no-repeat;
+			  background-position: center;
+			  background-size: cover;
+			}
+			
+			.slide12{
+			  background-image: url('http://slideplayer.com/slide/8000955/25/images/3/Ubiquitous+Health+Monitoring.jpg');
+			  height: 500px;
+			  background-repeat: no-repeat;
+			  background-position: center;
+			  background-size: cover;
+			}
+			.carousel-caption h1{
+			  font-size: 5.4em;
+			  font-family: 'Pacifico', cursive;
+			  padding-bottom: .4em;
+			}
+			.carousel-caption p{
+			  font-size: 2em;
+			}
+
+		</style>
+</head>
+<body>
+	<div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary bg-primary sticky">
+      <div class="container">
+        <a href="https://www.ncsu.edu/" target='_blank'>
+          <img src="http://media2.newsobserver.com/static/content/images/NCSU_logo.jpg" width="35" height="45" alt="NC STATE UNIVERSITY" />
+        </a>	
+        <a style="margin-left: 15px" href="../" class="navbar-brand">Prashant <br> Tanksali</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">  
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#" target="_blank">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" target="_blank">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" target="_blank">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" target="_blank">Contact Me</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+	<div class="container" style="margin: 150px 30px 30px 65px">
+		<div class="jumbotron content">
+			<div class="container" style="margin-top: 15px">
+      		  <a href="#col1Content" id="anchorWeb" data-toggle="collapse"><b class="content-heading">Web App/APIs</b></a>  
+
+		      <div id="col1Content" class="collapse in" style="padding: 50px 50px 50px 50px">
+		      	<div id="theCarousel" class="carousel slide" data-ride="carousel"> 
+  					<!-- Define how many slides to put in the carousel -->
+					<ol class="carousel-indicators">
+					  <li data-target="#theCarousel" data-slide-to="0" class="active"> </li >
+					  <li data-target="#theCarousel" data-slide-to="1"> </li>
+					  <li data-target ="#theCarousel" data-slide-to="2"> </li>
+					  <li data-target ="#theCarousel" data-slide-to="3"> </li>
+					  <li data-target ="#theCarousel" data-slide-to="4"> </li>
+					  <li data-target ="#theCarousel" data-slide-to="5"> </li>
+					  <li data-target ="#theCarousel" data-slide-to="6"> </li>
+					</ol >
+					 
+					<!-- Define the text to place over the image -->
+					<div class="carousel-inner" style="border-radius: 25px">
+					  <div class="item active" >
+						  <div class ="slide1"></div>
+						  <div class="carousel-caption">
+						    <h1>Expertiza- Open Source</h1>
+						    <p> Improved event logging feature for Expertiza by using DRY principles to refactor legacy code</p>
+						    <!--<p><a href="#" class="btn btn-primary btn-sm">Get them Now</a></p>-->
+						  </div>
+					  </div>
+					  <div class="item">
+						  <div class="slide2"></div>
+						  <div class="carousel-caption">
+						    <h1>Course Management System</h1>
+						    <p>Application for managing course enrollment at a university. Implemented using Struts and Oracle DB</p>
+						  </div>
+					  </div>
+					  <div class="item">
+						  <div class="slide3"></div>
+						  <div class="carousel-caption">
+						  <h1>Library Management Application</h1>
+						  <p>An application using Ruby on Rails framework with features like room reservation, audit trial and user management.</p>
+						  </div>
+					  </div>
+					  <div class="item">
+						  <div class="slide4"></div>
+						  <div class="carousel-caption">
+						  <h1>Distance Tracker</h1>
+						  <p>Application using android, RESTful-APIs and play framework to calculate total distance travelled by a user</p>
+						  </div>
+					  </div>
+					  <div class="item">
+						  <div class="slide5"></div>
+						  <div class="carousel-caption">
+						  <h1>Referral System</h1>
+						  <p>An application using referrals to find out the best service provider in the network. Implemented using android, RESTful-APIs, akka actors and play framework</p>
+						  </div>
+					  </div>
+					  <div class="item">
+						  <div class="slide6"></div>
+						  <div class="carousel-caption">
+						  <h1>Flight Reservation System</h1>
+						  <p>Application that books flights based on the available route with least travel distance.Implemented using RESTful-APIs, akka actors and play framework</p>
+						  </div>
+					  </div>
+					  <div class="item">
+						  <div class="slide7"></div>
+						  <div class="carousel-caption">
+						  <h1>Nightlife Coordination App</h1>
+						  <p>Application that uses Yelp's Fusion API to display all bars based on searched location</p>
+						  </div>
+					  </div>
+
+					</div>
+					 
+					  <!-- Set the actions to take when the arrows are clicked -->
+					<a class="left carousel-control" href="#theCarousel" data-slide="prev" style="border-radius: 25px">
+						<span class="glyphicon glyphicon-chevron-left"> </span>
+					</a>
+					<a class="right carousel-control" href="#theCarousel" data-slide="next" style="border-radius: 25px">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+					</div>
+		      </div>
+		      <br/>
+		      <a href="#col2Content" id="anchorSystems" data-toggle="collapse"><b class="content-heading">Systems</b></a>
+		      <div id="col2Content" class="collapse" style="padding: 50px 50px 50px 50px">
+		      	<div id="theCarousel2" class="carousel slide" data-ride="carousel"> 
+  					<!-- Define how many slides to put in the carousel -->
+					<ol class="carousel-indicators">
+					  <li data-target="#theCarousel2" data-slide-to="0" class="active"> </li >
+					  <li data-target="#theCarousel2" data-slide-to="1"> </li>
+					  <li data-target ="#theCarousel2" data-slide-to="2"> </li>
+					</ol >
+					 
+					<!-- Define the text to place over the image -->
+					<div class="carousel-inner" style="border-radius: 25px">
+					  <div class="item active" >
+						  <div class ="slide8"></div>
+						  <div class="carousel-caption">
+						    <h1>Non Persistent Heap</h1>
+						    <p>A linux kernel module that creates kernel space shared memory for multiple processes to communicate</p>
+						    <!--<p><a href="#" class="btn btn-primary btn-sm">Get them Now</a></p>-->
+						  </div>
+					  </div>
+					  <div class="item">
+						  <div class="slide9"></div>
+						  <div class="carousel-caption">
+						    <h1>Transactional NP Heap</h1>
+						    <p>A linux kernel module that builds on NP Heap to add transactions and resolves concurrency and scaling issues</p>
+						  </div>
+					  </div>
+					  <div class="item">
+						  <div class="slide10"></div>
+						  <div class="carousel-caption">
+						  <h1>File System on NP Heap</h1>
+						  <p>A file system built on top of NP Heap compatible with conventional file system operations</p>
+						  </div>
+					  </div>
+					  
+
+					</div>
+					 
+					  <!-- Set the actions to take when the arrows are clicked -->
+					<a class="left carousel-control" href="#theCarousel2" data-slide="prev" style="border-radius: 25px">
+						<span class="glyphicon glyphicon-chevron-left"> </span>
+					</a>
+					<a class="right carousel-control" href="#theCarousel2" data-slide="next" style="border-radius: 25px">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+					</div>
+		      </div>
+		      <br/>
+		      <a href="#col3Content" id="anchorNetworks" data-toggle="collapse"><b class="content-heading">Networking</b></a>
+		      <div id="col3Content" class="collapse" style="padding: 50px 50px 50px 50px">
+		      	<div id="theCarousel3" class="carousel slide" data-ride="carousel"> 
+  					<!-- Define how many slides to put in the carousel -->
+					<ol class="carousel-indicators">
+					  <li data-target="#theCarousel3" data-slide-to="0" class="active"> </li >
+					  <li data-target="#theCarousel3" data-slide-to="1"> </li>
+					</ol >
+					 
+					<!-- Define the text to place over the image -->
+					<div class="carousel-inner" style="border-radius: 25px">
+					  <div class="item active" >
+						  <div class ="slide11"></div>
+						  <div class="carousel-caption">
+						    <h1>Service Function Chaining</h1>
+						    <p>Traffic flow from the user is serviced by service functions before arriving at the destination</p>
+						    <!--<p><a href="#" class="btn btn-primary btn-sm">Get them Now</a></p>-->
+						  </div>
+					  </div>
+					  <div class="item">
+						  <div class="slide12"></div>
+						  <div class="carousel-caption">
+						    <h1>Wireless Reconfigurable Health Monitoring System</h1>
+						    <p>A wireless sensor network that transmits patient data without the need to confine them to a premise, thereby reducing the cost of in-bed hospitalization</p>
+						  </div>
+					  </div>
+					</div>
+					 
+					  <!-- Set the actions to take when the arrows are clicked -->
+					<a class="left carousel-control" href="#theCarousel3" data-slide="prev" style="border-radius: 25px">
+						<span class="glyphicon glyphicon-chevron-left"> </span>
+					</a>
+					<a class="right carousel-control" href="#theCarousel3" data-slide="next" style="border-radius: 25px">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+					</div>
+		      </div>
+		</div>
+		<br>
+		</div>
+	</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+<script type="text/javascript">
+	$("#anchorWeb").on("click",function(event) {
+		$("#col2Content").slideUp();
+		$("#col3Content").slideUp();
+	});
+	$("#anchorNetworks").on("click",function (event) {
+		$("#col1Content").slideUp();
+		$("#col2Content").slideUp();
+
+		// body...
+	});
+	$("#anchorSystems").on("click",function (event) {
+		$("#col1Content").slideUp();
+		$("#col3Content").slideUp();
+		// body...
+	})
+</script>
+</html>
